@@ -1,0 +1,34 @@
+.SaftyMeasureContainer {
+    margin-top: 20px;
+}
+
+.SaftyMeasureContainer .SaftyMeasureItems {
+  width: 49%;
+}
+.SaftyMeasureItems p{
+    color: black;
+    font-size: 20px;
+}
+.Section5 {
+  background-image: url('../../Images/saftybg2.png');
+  height: 500px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+@media screen and (max-width:768px) {
+  .Section5 {
+    background-image: url('../../Images/saftybg2.png');
+        height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+}
+@media screen and (max-width: 900px) {
+  .SaftyMeasureContainer .SaftyMeasureItems {
+    width: 450px;
+  }
+}

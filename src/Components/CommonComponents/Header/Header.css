@@ -1,0 +1,124 @@
+.RedirectLink {
+  color: black;
+  text-decoration: none;
+  margin: 0px 15px;
+}
+.RedirectLink.active {
+  position: relative;
+  font-weight: 600;
+}
+.RedirectLink.active::before {
+  content: "";
+  font-weight: 800;
+  position: absolute;
+  bottom: -2px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  transition: 0.5s linear;
+}
+.RedirectLink::after {
+  content: "";
+}
+.logoonsmallscreen {
+  width: 220px;
+}
+.offcanvas {
+  width: 30vw !important;
+}
+.navbar {
+  box-shadow: 0px 2px 5px 2px rgba(150, 150, 150, 0.46);
+  position: sticky !important;
+  top: 0px;
+  z-index: 2;
+}
+.DropDownArrow {
+  margin-left: -24px;
+  text-align: center;
+}
+.nav-link {
+  font-size: 20px !important;
+}
+.QuoteBtn {
+  padding: 6px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  box-shadow: 5px 5px 08px gray;
+  margin: 0px 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+}
+.HeaderNav {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+.DropDownContainer div {
+  background-color: black;
+  border: 2px solid white;
+  left: -80px !important;
+  border-radius: 0px !important;
+}
+.DropDownContainer div a {
+  font-size: 18px !important;
+}
+
+.dropdown-item:hover {
+  background-color: #3a39397c !important;
+}
+.hidenolargCreeen {
+  display: none;
+}
+.hidenolargCreeen2 {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .hidenolargCreeen {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .DropDownArrow {
+    margin-left: 0px;
+    top: -10px;
+  }
+  .hidenolargCreeen2 {
+    display: block;
+  }
+
+  .DropDownContainer div {
+    background-color: black;
+    border: 2px solid white;
+    left: 0px !important;
+    border-radius: 0px !important;
+  }
+  .DropDownContainer div a {
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .offcanvas {
+    width: 45vw !important;
+  }
+  .hide {
+    display: none;
+  }
+
+  .DropDownContainer div a {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .offcanvas {
+    width: 60vw !important;
+  }
+  .logoonsmallscreen {
+    width: 200px;
+  }
+}

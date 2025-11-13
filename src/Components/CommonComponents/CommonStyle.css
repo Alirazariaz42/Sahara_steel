@@ -1,0 +1,146 @@
+.slider-container {
+  height: 60vh;
+  /* display: flex; */
+  color: white;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.outerContentContainer {
+  background-color: rgba(0, 0, 0, 0.452);
+  width: 100%;
+  padding: 71px;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s linear;
+  margin-left: 00%;
+  color: white;
+}
+.outerContentContainer p {
+  width: 40%;
+  margin: auto auto;
+  margin-bottom: 15px;
+}
+.outerContentContainer button {
+  color: black;
+  background-color: #f8be50;
+  padding: 10px 22px;
+  border: none;
+}
+.ExpertiesHeading {
+  color: black;
+  background-color: #f8be50;
+  padding: 15px 15px;
+  border: none;
+  text-align: center;
+}
+.ExpertiesDescription {
+  min-height: 300px;
+}
+.Main_Heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  border-left: 6px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.paragraph {
+  font-size: 20px;
+  color: black;
+}
+.Common_ContactBtn {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 5px 5px 12px rgb(59, 59, 59);
+}
+.HTHI_Container {
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HTHI_Container img {
+  height: 80%;
+  width: 100%;
+}
+.SectionServicesPages {
+  background-image: url("../../Images//ServicesPagesBGpicture.png");
+  height: 400px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+@media screen and (max-width: 900px) {
+  .outerContentContainer {
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    padding: 60px;
+  }
+  .outerContentContainer p {
+    width: 80%;
+    margin: auto auto;
+    margin-bottom: 15px;
+  }
+  .slider-container {
+    background-size: cover;
+  }
+  .Main_Heading {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    border-left: 8px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .outerContentContainer h3 {
+    font-size: 20px !important;
+  }
+  .slider-container {
+    /* height: 50vh; */
+    /* display: flex; */
+    color: white;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .outerContentContainer {
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    padding: 20px;
+  }
+  .outerContentContainer p {
+    width: 85%;
+    margin: auto auto;
+    margin-bottom: 15px;
+  }
+  .Main_Heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    border-left: 8px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .paragraph {
+    font-size: 19px;
+    color: black;
+  }
+}

@@ -1,0 +1,201 @@
+.descriptionContainer {
+  background-color: #f8be50;
+  padding: 30px 40px;
+  border: none;
+  height: 350px;
+  width: 100%;
+  overflow: auto;
+}
+.mainServicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.mainServicesContainer .mainServiceItem {
+  width: 48%;
+}
+.mainServicesNames {
+  background-color: #efefef;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  transition: 0.5s ease-in-out;
+}
+.mainServicesNames:hover {
+  background-color: #f8be50;
+  box-shadow: 2px 2px 10px grey;
+  transition: 0.2s ease-in-out;
+}
+
+.Section4 {
+  background-image: url("../../Images/HomeLastBg.png");
+  height: 500px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.whyChooseSteel {
+  /* background-color: #F8BE50; */
+  padding: 30px 40px;
+  border: none;
+
+  width: 100%;
+
+  position: relative;
+  display: flex;
+}
+.whyChooseSteelDescription {
+  background-color: #f8be50;
+  width: 85%;
+  display: flex;
+}
+.whyChooseSteelImg {
+  width: 14%;
+  position: relative;
+}
+.whyChooseSteelImg img {
+  position: absolute;
+  right: -137px;
+  top: -23px;
+  height: 350px;
+}
+.Benifits {
+  width: 40%;
+  padding: 50px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Benifitstext {
+  font-size: 35px;
+  font-weight: 700;
+}
+.benifitsContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.benifitsContainer ul {
+  padding: 20px 70px;
+  font-size: 24px;
+}
+.benifitsContainer ul li {
+  line-height: 60px;
+}
+/* .whyChooseSteelDescription div{
+    width: 50%;
+} */
+
+@media screen and (max-width: 1250px) {
+  .Benifitstext {
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .benifitsContainer ul li {
+    line-height: 50px;
+  }
+  .benifitsContainer ul {
+    padding: 50px 70px;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .whyChooseSteelImg {
+    width: 0%;
+    position: relative;
+  }
+
+  .whyChooseSteelDescription {
+    background-color: #f8be50;
+    width: 100%;
+    display: flex;
+  }
+
+  .whyChooseSteel {
+    /* background-color: #F8BE50; */
+    padding: 0px;
+    border: none;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* overflow: hidden; */
+  }
+
+  .Section4 {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .mainServicesContainer .mainServiceItem {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .whyChooseSteelImg {
+    width: 0%;
+    position: relative;
+  }
+
+  .whyChooseSteelDescription {
+    background-color: #f8be50;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Benifits {
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .benifitsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .benifitsContainer ul {
+    padding: 10px 40px;
+    font-size: 27px;
+  }
+  .whyChooseSteelImg img {
+    position: absolute;
+    right: -191px;
+    top: -40px;
+    display: none;
+  }
+  .Benifitstext {
+    font-size: 31px;
+    font-weight: 800;
+  }
+  .benifitsContainer ul li {
+    line-height: 40px;
+  }
+  .whyChooseSteel {
+    /* background-color: #F8BE50; */
+    padding: 0px;
+    border: none;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* overflow: hidden; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .benifitsContainer ul {
+    padding: 10px 40px;
+    font-size: 22px;
+  }
+}
