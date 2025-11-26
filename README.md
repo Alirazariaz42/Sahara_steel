@@ -10,7 +10,7 @@
 
  <hr/>
  <h3>For Live Demo</h3>
-<a href="https://sahara-steel.netlify.app/">  Click here </a>
+<a target="_blank" href="https://sahara-steel.netlify.app/">  Click here </a>
  <hr/>
 
 
